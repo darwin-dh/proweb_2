@@ -1,0 +1,31 @@
+/*Classes se llaman con . y el nombre de la clase o id
+las id con #
+*/
+/*normalize.css*/
+*{
+margin: 0;
+padding: 0;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing: border-box;
+}
+body{
+  background: #fff;
+  font-size: 16px;
+}
+.contenedor{
+  max-width: 1000px;
+  /*Max-width es ancho maximo */
+  /*width ancho*/
+  /*margin margen*/
+  /*overflow hidden Oculta el sofranre*/
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+header{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 600px;
+}
