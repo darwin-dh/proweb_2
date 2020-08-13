@@ -1,0 +1,25 @@
+/*
+Unidades relativas
+*px -  pixel
+*em -  relativa dependiendo del tamaño del contenedor padre
+*rem - depende del tamaño del body
+*% -   porcentaje
+*/
+/*
+Unidades Absolutas
+in - pulgadas
+cm - centimetros
+mm - militre
+*/
+body{
+  font-size: 50px;
+}
+.caja{
+ width: 200px;
+ height: 200px;
+/* background: #74b04b;*/
+background:rgb(25%,15%,80%);
+}
+p{
+    font-size: 10mm;
+}

@@ -48,4 +48,99 @@ header .menu a:hover{
 }
 .fondo{
   background-color: rgba(56, 74, 148, 0.5);
+  height: 600px;
 }
+header .contenedor-texto{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 190px;
+}
+header .contenedor-texto .textos{
+  border:2px solid rgba(255,255,255, 0.8);
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 20px;
+}
+header .contenedor-texto .textos h1,p{
+  color: #ffffff;
+  margin: 0;
+  font-weight: 300;
+}
+.main .contenedor{
+  overflow: visible;
+}
+
+.main .logo{
+  margin-top: -60px;
+}
+.main .acerca-de{
+text-align: center;
+}
+.main .logo img{
+    border: 10px solid rgba(0,0,0,0, 0.5);
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    margin-bottom: 20px;
+
+}
+.main .articulos-imagenes{
+  background: #f2f2f2;
+}
+.main .articulos-imagenes .imagenes{
+  margin: 20px;
+  padding: 40px;
+}
+.main .articulos-imagenes .imagenes img {
+      height: 300px;
+        width: 300px;
+}
+footer .iconos{
+  background: #1e2b38;
+  padding: 60px 0;
+}
+footer .iconos .contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer .iconos .contenedor a{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  width: 100px;
+  padding: 15px 0;
+  display: block;
+  border-radius: 3px;
+  flex:auto;
+}
+footer .iconos .contenedor .face:hover{
+  background: #3b5998;
+}
+footer .iconos .contenedor .yoube:hover{
+  background: #ff0000;
+}
+footer .iconos .contenedor .git:hover{
+  background: #6cc644;
+}
+footer .iconos .contenedor .vue:hover{
+  background: #42b883;
+}
+footer .iconos .contenedor .laravel:hover{
+  background: #f55247;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/****

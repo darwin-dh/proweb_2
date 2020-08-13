@@ -6,6 +6,8 @@
         minimum-scale=1.0">
         <title>Adobe XD</title>
         <link rel="stylesheet" href="css/estilos.css" type="text/css">
+        <link rel="stylesheet" href="css/iconos/css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/iconos/css/brands.css">
     </head>
     <body>
         <!--Etiquetas de maquetacion-->
@@ -19,66 +21,82 @@
                         <a href="#">Galeria</a>
                         <a href="#">Contactos</a>
                     </nav>
-                    <div class="textos">
-                        <h1 class="texto">Instituo Quito</h1>
-                        <p class="parrafo">Comercio Electronico</p>
-                    </div>
-                    <div class="logo">
-                        <img src="img/itq.png">
+                    <div class="contenedor-texto">
+                        <div class="textos">
+                            <h1 class="texto">Instituto Quito</h1>
+                            <p class="parrafo">Comercio Electronico</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
-    </div>
-    <!--Etiqueta section contiene todo el contenido del sitio web--->
-    <section class="main">
-        <div class="contenedor">
-            <article class="articulos-imagenes">
-                <div class="imagenes">
-                    <img src="img/imagen1.jpg" alt="imagen1">
-                    <img src="img/imagen2.jpg" alt="imagen2">
-                    <img src="img/imagen3.jpg" alt="imagen3">
-                    <img src="img/imagen4.jpg" alt="imagen4">
-                    <img src="img/imagen5.jpg" alt="imagen5">
-                    <img src="img/imagen6.jpg" alt="imagen6">
-                </div>
-            </article>
-            <article class="mapa">
-                <div style="width: 100%">
-                    <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                    <a href="https://www.maps.ie/map-my-route/">Measure running distance on a map</a>
-                </div>
-            </article>
-            <div class="formulario">
-                <section class="registros">
-                    <h3 class="titulo">formulario de registro</h3>
-                    <form action="" method="post">
-                        <input type="text" placeholder="Nombre" maxlength="7" required="required">
-                        <input type="text" placeholder="Apellido" maxlength="7" required="required">
-                        <input type="number" placeholder="Edad" required="required">
-                        <input type="number" placeholder="Telefono" required="required">
-                        <input type="email" placeholder="Correo" required="required">
-                        <input type="password" placeholder="Contraseña" required="required">
-                        <button type="submit">Registrar</button>
-                        <button type="reset">Cancelar</button>
-                    </form>
-                </section>
-            </div>
-        </div>
-    </section>
 
-    <!--Etiqueta Footer pie-->
-    <footer>
-        <div class="contenedor">
-            <div class="iconos">
-                <div class="face"></div>
-                <div class="twitter"></div>
-                <div class="youtube"></div>
-                <div class="instagram"></div>
-                <div class="whatsapp"></div>
+        <!--Etiqueta section contiene todo el contenido del sitio web--->
+        <section class="main">
+            <div class="contenedor">
+                <div class="acerca-de">
+                    <div class="logo">
+                        <img src="img/itq.png">
+                    </div>
+                    <article class="articulos-imagenes">
+                        <div class="imagenes">
+                            <img src="img/imagen1.jpg" alt="imagen1">
+                            <img src="img/imagen2.jpg" alt="imagen2">
+                            <img src="img/imagen3.jpg" alt="imagen3">
+                            <img src="img/imagen4.jpg" alt="imagen4">
+                            <img src="img/imagen5.jpg" alt="imagen5">
+                            <img src="img/imagen6.jpg" alt="imagen6">
+                        </div>
+                    </article>
+                </div>
+                <article class="mapa">
+                    <div style="width: 100%">
+                        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        <a href="https://www.maps.ie/map-my-route/">Measure running distance on a map</a>
+                    </div>
+                </article>
             </div>
-        </div>
-    </footer>
+        </section>
 
-</body>
+        <!--Etiqueta Footer pie-->
+        <footer>
+            <div class="contenedor">
+                <div class="formulario">
+                    <section class="registros">
+                        <h3 class="titulo">formulario de registro</h3>
+                        <form action="" method="post">
+                            <input type="text" placeholder="Nombre" maxlength="7" required="required">
+                            <input type="text" placeholder="Apellido" maxlength="7" required="required">
+                            <input type="number" placeholder="Edad" required="required">
+                            <input type="number" placeholder="Telefono" required="required">
+                            <input type="email" placeholder="Correo" required="required">
+                            <input type="password" placeholder="Contraseña" required="required">
+                            <button type="submit">Registrar</button>
+                            <button type="reset">Cancelar</button>
+                        </form>
+                    </section>
+                </div>
+                <div class="iconos">
+                    <div class="contenedor">
+                        <a href="#" class="face">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="yoube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="git">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="vue">
+                            <i class="fab fa-vuejs"></i>
+                        </a>
+                        <a href="#" class="laravel">
+                            <i class="fab fa-laravel"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
 </html>
