@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu  {
+  background: #000;
+  width: 1000px;
+}
+.conetenedor{
+  max-width: 1000px;
+  margin: auto;
+  width: 90%;
+  overflow: hidden;
+}
+.main{
+  background: #fff;
+  width: 700px;
+  height: 200px;
+  float: left;
+}
+.aside{
+  background: red;
+  width: 300px;
+  height: 200px;
+  float: left;
+}
+.footer{
+  clear:both;
+  background: blue;
+  width: 1000px;
+  padding: 20px 0;
+}
