@@ -1,0 +1,100 @@
+.main .zoom .galeria{
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .zoom .galeria ul{
+  list-style: none;
+}
+.main .zoom .galeria li{
+  margin: 5px;
+}
+.main .zoom .galeria img{
+  width: 150px;
+  height: 150px;
+}
+/****MODAL VENTANA****/
+.modal{
+  display: none;
+  top:0;
+  transition: all 0.5s
+}
+.modal:target{
+display:block;
+position: fixed;
+background: rgba(0,0,0, 0.8);
+transition:all .5s;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.modal .imagen,h1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.modal .imagen .caja{
+  background: #fff;
+color: #000;
+position: absolute;
+top:35px;
+right:125px;
+margin: 0px auto;
+padding: 20px;
+}
+.modal .imagen a:nth-child(2){
+padding: 10px;
+margin: 0;
+color: #fff;
+height: 12px;
+flex-shrink: 2;
+}
+.modal .imagen img{
+  width: 1000px;
+  height: 100%;
+  max-width: 100%;
+  border: 5px solid #fff;
+  margin: 50px;
+  cursor: zoom-out;
+  transition: all 0.5s;
+}
+.modal .imagen .cerrar{
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 1000px auto;
+  text-decoration:none;
+  top: 05px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/
