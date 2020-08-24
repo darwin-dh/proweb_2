@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    overflow: hidden;
+    background: #000;
+}
+header nav {
+    width: 100%;
+    padding: 20px 0;
+
+}
+
+.main {
+    float: left;
+    width: 70%;
+    background: #fff;
+    /*2*/
+}
+img {
+    width: 100%;
+}
+aside {
+    width: 30%;
+    float: left;
+    background: blue;
+}
+footer{
+  clear: both;
+  padding: 20px;
+  background: black;
+  color:white;
+}
